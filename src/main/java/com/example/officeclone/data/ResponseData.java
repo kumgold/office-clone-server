@@ -10,8 +10,7 @@ import java.util.List;
 public class ResponseData {
     int statusCode;
     List<Member> members;
-
-
+    
     public ResponseData(int statusCode, List<Member> members) {
         this.statusCode = statusCode;
         this.members = members;
