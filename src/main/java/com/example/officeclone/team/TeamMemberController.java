@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class TeamMemberController {
 
-    @GetMapping("/team")
+    @GetMapping("/members")
     @ResponseBody
     public MemberResponse getMembers() {
         List<Member> list = new ArrayList<>();

@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 public class ChatController {
-    @GetMapping("/chattingroom")
+    @GetMapping("/chattingrooms")
     @ResponseBody
     public ChattingRoomResponse getChattingRooms() {
         List<ChattingRoom> list = new ArrayList<>();
