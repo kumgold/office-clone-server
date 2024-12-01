@@ -1,4 +1,4 @@
-package com.example.officeclone.chat;
+package com.example.officeclone.response;
 
 import com.example.officeclone.data.ChattingRoom;
 import lombok.Getter;

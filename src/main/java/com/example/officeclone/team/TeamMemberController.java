@@ -1,6 +1,7 @@
 package com.example.officeclone.team;
 
 import com.example.officeclone.data.Member;
+import com.example.officeclone.response.MemberResponse;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;

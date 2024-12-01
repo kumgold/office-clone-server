@@ -1,4 +1,4 @@
-package com.example.officeclone.team;
+package com.example.officeclone.response;
 
 import com.example.officeclone.data.Member;
 import lombok.Getter;
