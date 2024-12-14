@@ -2,6 +2,8 @@ package com.example.officeclone.data;
 
 import lombok.*;
 
+import java.util.List;
+
 @Getter
 @Setter
 @ToString
@@ -10,6 +12,5 @@ import lombok.*;
 public class ChattingRoom {
     private String id;
     private String name;
-    private String previewMessage;
-    private int memberCount;
+    private List<String> memberIdList;
 }

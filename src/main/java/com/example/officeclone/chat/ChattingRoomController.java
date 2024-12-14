@@ -15,14 +15,12 @@ public class ChattingRoomController {
                     new ChattingRoom(
                             "1-11",
                             "name AAA",
-                            "test",
-                            2
+                           Arrays.asList("1", "11")
                     ),
                     new ChattingRoom(
                             "1-2",
                             "name ABC",
-                            "test 2",
-                            2
+                            Arrays.asList("1", "2")
                     )
             )
     );

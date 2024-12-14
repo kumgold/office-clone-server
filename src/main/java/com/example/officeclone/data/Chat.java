@@ -5,10 +5,11 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
+@NoArgsConstructor
 @AllArgsConstructor
 public class Chat {
     private String id;
-    private String date;
+    private Long datetimeMilli;
     private String message;
     private String memberId;
     private String chattingRoomId;
